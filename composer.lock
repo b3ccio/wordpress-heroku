@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "76bf451231f8a2bb862031ee9a22a47d",
+    "content-hash": "1575195aabfb318a3e2094cfcfcc768c",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1933,6 +1933,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar/"
+        },
+        {
+            "name": "wpackagist-plugin/fg-drupal-to-wp",
+            "version": "2.35.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/fg-drupal-to-wp/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/fg-drupal-to-wp.zip?timestamp=1612515601"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/fg-drupal-to-wp/"
         },
         {
             "name": "wpackagist-plugin/nginx-helper",
